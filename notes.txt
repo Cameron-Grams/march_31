@@ -1,0 +1,6 @@
+Start the database through the Docker desktop
+
+start the backend with Uvicorn:
+  uvicorn backend:main.app --reload
+
+
