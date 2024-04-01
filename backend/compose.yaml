@@ -12,7 +12,7 @@ services:
 
 
   pgadmin:
-    container_name: pgadmin
+    container_name: pgadmin_inv
     image: dpage/pgadmin4:latest
     environment:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_MAIL}
